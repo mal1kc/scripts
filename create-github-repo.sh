@@ -1,0 +1,1 @@
+curl -u '{$1}' https://api.github.com/user/repos -d '{"$1":"repository name"}'
